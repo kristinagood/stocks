@@ -11,7 +11,9 @@ totalReceived = stockSoldFor - sellingCommission
 profitOrLoss = totalReceived - totalPaid
 SELLING_PRICE = (NUM_SHARES * SELLING_PRICE)
 PURCHASE_PRICE = (NUM_SHARES * PURCHASE_PRICE)
-print(SELLING_PRICE)
-print(sellingCommission)
-print(purchaseCommission)
-print(PURCHASE_PRICE)
+print(f'Amount paid for stock: ${SELLING_PRICE}')
+print(f'Commission paid on the purchase: ${sellingCommission}')
+print(f'Commission paid on the sale: ${purchaseCommission}')
+print(f'Amount the stock sold for: ${PURCHASE_PRICE}')
+print(f'Total commission paid: ${totalPaid}')
+print(f'Profit (or loss if negative): ${profitOrLoss}')
