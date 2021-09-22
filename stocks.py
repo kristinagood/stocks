@@ -17,3 +17,10 @@ print(f'Commission paid on the sale: ${purchaseCommission}')
 print(f'Amount the stock sold for: ${PURCHASE_PRICE}')
 print(f'Total commission paid: ${totalPaid}')
 print(f'Profit (or loss if negative): ${profitOrLoss}')
+if profitOrLoss < 0:
+    print(f'your loss is: ${profitOrLoss}')
+if profitOrLoss > 0:
+    print(f'your profit is: ${profitOrLoss}')
+if profitOrLoss == 0:
+    print(f'there is no gain or loss: ${profitOrLoss}')
+    
